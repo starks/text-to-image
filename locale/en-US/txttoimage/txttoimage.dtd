@@ -1,0 +1,36 @@
+<!ENTITY txttoimage-title "Text-to-Image Options">
+<!ENTITY txttoimage-tooltip "Toggle Text-to-Image on and off">
+<!ENTITY txttoimage-optiontab "Options">
+<!ENTITY txttoimage-blacklisttab "Blacklist">
+<!ENTITY txttoimage-sitefiltertab "Site Blacklist">
+<!ENTITY txttoimage-imgtab "Images">
+<!ENTITY txttoimage-imgmode "Text-to-Image Mode">
+<!ENTITY txttoimage-newmode "New Mode (Images open in pop-up on double-click)">
+<!ENTITY txttoimage-oldmode "Old Mode (Images don&apos;t appear in pop-up)">
+<!ENTITY txttoimage-imgloader "Use a loading icon in place of a loading image">
+<!ENTITY txttoimage-imgdims "Image dimensions">
+<!ENTITY txttoimage-widthckbox "Set a max width for images?">
+<!ENTITY txttoimage-width "Max Width: ">
+<!ENTITY txttoimage-heightckbox "Set a max height for images?">
+<!ENTITY txttoimage-height "Max Height: ">
+<!ENTITY txttoimage-himgdims "Image dimensions on mouse over">
+<!ENTITY txttoimage-hwidthckbox "Set a max width for images on mouse-over?">
+<!ENTITY txttoimage-hheightckbox "Set a max height for images on mouse-over?">
+<!ENTITY txttoimage-popup "View image in pop-up window">
+<!ENTITY txttoimage-origtext "Change image to original text or link">
+<!ENTITY txttoimage-filter "Blacklist this image for Text-to-Image">
+<!ENTITY txttoimage-filtersite "Blacklist this webpage for Text-to-Image">
+<!ENTITY txttoimage-link2img "Convert link into image thumbnail">
+<!ENTITY txttoimage-adddialogtitle "Add Text-to-Image blacklist filter">
+<!ENTITY txttoimage-adddialogdesc "New Filter (use * as wildcard, you can also use Regular Expressions):">
+<!ENTITY txttoimage-sitefilter "This filter is for disabling Text-to-Image on specific sites.">
+<!ENTITY txttoimage-addfilter "Add Filter">
+<!ENTITY txttoimage-editfilter "Edit Filter">
+<!ENTITY txttoimage-deleteselected "Delete Selected">
+<!ENTITY txttoimage-deleteall "Delete All">
+<!ENTITY txttoimage-imgtypes "File extensions Text-to-Image effects">
+<!ENTITY txttoimage-customTypes "Other file extensions (seperate with spaces, don&apos;t include starting period)">
+<!ENTITY txttoimage-maxreplace "Maximum number of images per page to replace: ">
+<!ENTITY txttoimage-ok "OK">
+<!ENTITY txttoimage-cancel "Cancel">
+<!ENTITY txttoimage-clicktoclose "Click and drag the mouse to scroll. Double-Click anywhere on the page to close this window.">

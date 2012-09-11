@@ -1,0 +1,20 @@
+overlay	chrome://browser/content/browser.xul     chrome://txttoimage/content/txttoimageOverlay.xul
+overlay	chrome://navigator/content/navigator.xul chrome://txttoimage/content/txttoimageOverlay.xul
+
+content txttoimage jar:chrome/txttoimage.jar!/content/txttoimage/
+
+skin txttoimage classic/1.0 jar:chrome/txttoimage.jar!/skin/classic/txttoimage/
+
+locale txttoimage da-DK jar:chrome/txttoimage.jar!/locale/ca-AD/txttoimage/
+locale txttoimage da-DK jar:chrome/txttoimage.jar!/locale/cs-CZ/txttoimage/
+locale txttoimage da-DK jar:chrome/txttoimage.jar!/locale/da-DK/txttoimage/
+locale txttoimage de-DE jar:chrome/txttoimage.jar!/locale/de-DE/txttoimage/
+locale txttoimage en-US jar:chrome/txttoimage.jar!/locale/en-US/txttoimage/
+locale txttoimage es-ES jar:chrome/txttoimage.jar!/locale/es-AR/txttoimage/
+locale txttoimage es-ES jar:chrome/txttoimage.jar!/locale/es-ES/txttoimage/
+locale txttoimage fr-FR jar:chrome/txttoimage.jar!/locale/fr-FR/txttoimage/
+locale txttoimage hr-HR jar:chrome/txttoimage.jar!/locale/hr-HR/txttoimage/
+locale txttoimage it-IT jar:chrome/txttoimage.jar!/locale/it-IT/txttoimage/
+locale txttoimage pt-BR jar:chrome/txttoimage.jar!/locale/pt-BR/txttoimage/
+locale txttoimage es-ES jar:chrome/txttoimage.jar!/locale/ro-RO/txttoimage/
+locale txttoimage zh-TW jar:chrome/txttoimage.jar!/locale/zh-TW/txttoimage/

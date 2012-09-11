@@ -1,0 +1,36 @@
+<!ENTITY txttoimage-title "Opções do Text-to-Image">
+<!ENTITY txttoimage-tooltip "Alterna o Text-to-Image para ligado/desligado">
+<!ENTITY txttoimage-optiontab "Opções">
+<!ENTITY txttoimage-blacklisttab "Lista Negra">
+<!ENTITY txttoimage-sitefiltertab "Lista Negra de Sites">
+<!ENTITY txttoimage-imgtab "Imagens">
+<!ENTITY txttoimage-imgmode "Modo Texto-para-Imagem">
+<!ENTITY txttoimage-newmode "Modo Novo (Imagens serão exibidas num pop-up no duplo-clique)">
+<!ENTITY txttoimage-oldmode "Modo Antigo (Imagens não serão exibidas na janela pop-up)">
+<!ENTITY txttoimage-imgloader "Usar um ícone de carregando, em vez de carregar a imagem">
+<!ENTITY txttoimage-imgdims "Dimensões da Imagem">
+<!ENTITY txttoimage-widthckbox "Definir uma largura máxima para imagens?">
+<!ENTITY txttoimage-width "Largura Máxima:">
+<!ENTITY txttoimage-heightckbox "Definir uma altura máxima para imagens?">
+<!ENTITY txttoimage-height "Altura Máxima:">
+<!ENTITY txttoimage-himgdims "Exibir dimensões da imagem quando o mouse estiver sobre ela">
+<!ENTITY txttoimage-hwidthckbox "Definir uma largura máxima quando o mouse estiver sobre a imagem?">
+<!ENTITY txttoimage-hheightckbox "Definir uma altura máxima quando o mouse estiver sobre a imagem?">
+<!ENTITY txttoimage-popup "Exibir imagem em janela pop-up">
+<!ENTITY txttoimage-origtext "Alterar a imagem para o texto ou link original">
+<!ENTITY txttoimage-filter "Incluir esta imagem na Lista Negra do Text-to-Image">
+<!ENTITY txttoimage-filtersite "Incluir esta Página na Lista Negra do Text-to-Image">
+<!ENTITY txttoimage-link2img "Converter link para miniatura da imagem">
+<!ENTITY txttoimage-adddialogtitle "Adicionar filtro de Lista Negra">
+<!ENTITY txttoimage-adddialogdesc "Novo Filtro (use * como curinga, você também pode usar expressões regulares):">
+<!ENTITY txttoimage-sitefilter "Este filtro é para desabilitar o Text-to-Image em páginas específicas.">
+<!ENTITY txttoimage-addfilter "Adicionar Filtro">
+<!ENTITY txttoimage-editfilter "Editar Filtro">
+<!ENTITY txttoimage-deleteselected "Excluir Seleção">
+<!ENTITY txttoimage-deleteall "Excluir Todos">
+<!ENTITY txttoimage-imgtypes "Extensões de Arquivo para o Text-to-Image atuar">
+<!ENTITY txttoimage-customTypes "Outras extensões de arquivo (separados por espaço, não inclua o ponto)">
+<!ENTITY txttoimage-maxreplace "Número máximo de imagens por página que serão substituídas:">
+<!ENTITY txttoimage-ok "OK">
+<!ENTITY txttoimage-cancel "Cancelar">
+<!ENTITY txttoimage-clicktoclose "Clique e arraste para rolar. Dê um duplo clique em qualquer lugar para fechar a janela.">

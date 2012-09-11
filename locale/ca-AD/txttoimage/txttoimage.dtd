@@ -1,0 +1,36 @@
+<!ENTITY txttoimage-title "Opcions Text-to-Image">
+<!ENTITY txttoimage-tooltip "Activa/Desactiva Text-to-Image">
+<!ENTITY txttoimage-optiontab "Opcions">
+<!ENTITY txttoimage-blacklisttab "Llista negra">
+<!ENTITY txttoimage-sitefiltertab "Llista negra del lloc">
+<!ENTITY txttoimage-imgtab "Imatges">
+<!ENTITY txttoimage-imgmode "Mode Text-to-Image">
+<!ENTITY txttoimage-newmode "Nou mode">
+<!ENTITY txttoimage-oldmode "Antic mode">
+<!ENTITY txttoimage-imgloader "Utilitza una icona encomptes d&apos;una imatge per mostrar la càrrega">
+<!ENTITY txttoimage-imgdims "Dimensions de les imatges">
+<!ENTITY txttoimage-widthckbox "Establir una amplada màxima per les imatges?">
+<!ENTITY txttoimage-width "Màxima amplada">
+<!ENTITY txttoimage-heightckbox "Establir una altura màxima per les imatges?">
+<!ENTITY txttoimage-height "Màxima altura">
+<!ENTITY txttoimage-himgdims "Dimensions de la imatge amb el ratolí a sobre">
+<!ENTITY txttoimage-hwidthckbox "Establir una amplada màxima per les imatges amb el ratolí a sobre?">
+<!ENTITY txttoimage-hheightckbox "Establir una altura màxima per les imatges amb el ratolí a sobre?">
+<!ENTITY txttoimage-popup "Veure la imatge en una finestra &quot;pop-up&quot;">
+<!ENTITY txttoimage-origtext "Canvia la imatge pel tex o enllaç original">
+<!ENTITY txttoimage-filter "Afegeix aquesta imatge a llista negra">
+<!ENTITY txttoimage-filtersite "Afegeix aquesta web a la llista negra">
+<!ENTITY txttoimage-link2img "Converteix l&apos;enllaç a una imatge thumbnail">
+<!ENTITY txttoimage-adddialogtitle "Afegeix el filtre a la llista negra">
+<!ENTITY txttoimage-adddialogdesc "Nou filtre (utilitza * com comodí, pots també utilitzar Expressions Regulars)">
+<!ENTITY txttoimage-sitefilter "Aquest filtre es per desabilitar Text-to-Image en llocs especificats">
+<!ENTITY txttoimage-addfilter "Afegir filtre">
+<!ENTITY txttoimage-editfilter "Editar filtre">
+<!ENTITY txttoimage-deleteselected "Esborrar selecció">
+<!ENTITY txttoimage-deleteall "Esborrar tot">
+<!ENTITY txttoimage-imgtypes "Exetensions pels efectes de Text-to-Image">
+<!ENTITY txttoimage-customTypes "Altres extensions per l&apos;arxiu (separades per espais)">
+<!ENTITY txttoimage-maxreplace "Màxim nombre de imatges a substituir per pàgina">
+<!ENTITY txttoimage-ok "OK">
+<!ENTITY txttoimage-cancel "Cancel.la">
+<!ENTITY txttoimage-clicktoclose "Clica i arrastra per fer scroll. Doble clic a cualsevol lloc de la pàgina per tancar.">

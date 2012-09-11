@@ -1,0 +1,36 @@
+<!ENTITY txttoimage-title "Opţiuni Text-to-Image">
+<!ENTITY txttoimage-tooltip "(Dez)Activare Text-to-Image">
+<!ENTITY txttoimage-optiontab "Opţiuni">
+<!ENTITY txttoimage-blacklisttab "Lista neagră">
+<!ENTITY txttoimage-sitefiltertab "Lista neagră - situri">
+<!ENTITY txttoimage-imgtab "Imagini">
+<!ENTITY txttoimage-imgmode "Mod de operare Text-to-Image">
+<!ENTITY txttoimage-newmode "Modul nou (imaginile se deschid în pop-up-uri, prin dublu clik)">
+<!ENTITY txttoimage-oldmode "Modul vechi (imaginile nu se deschid în pop-up-uri)">
+<!ENTITY txttoimage-imgloader "Foloseşte pentru încărcare o pictogramă, nu o imagine">
+<!ENTITY txttoimage-imgdims "Dimensiunile imaginii">
+<!ENTITY txttoimage-widthckbox "Stabileşti o lăţime maximă a imaginilor?">
+<!ENTITY txttoimage-width "Lăţime maximă:">
+<!ENTITY txttoimage-heightckbox "Stabileşti o înlălţime maximă a imaginilor?">
+<!ENTITY txttoimage-height "Înălţime maximă:">
+<!ENTITY txttoimage-himgdims "Dimensiunile imaginii la survolarea cu mausul">
+<!ENTITY txttoimage-hwidthckbox "Stabileşti o lăţime maximă a imaginilor la survolarea cu mausul?">
+<!ENTITY txttoimage-hheightckbox "Stabileşti o înălţime maximă a imaginilor la survolarea cu mausul?">
+<!ENTITY txttoimage-popup "Expune imaginea într-o fereastră pop-up">
+<!ENTITY txttoimage-origtext "Preschimbă imaginea în textul sau legătura originară">
+<!ENTITY txttoimage-filter "Adaugă imaginea în lista neagră a Text-to-Image">
+<!ENTITY txttoimage-filtersite "Adaugă situl în lista neagră a Text-to-Image">
+<!ENTITY txttoimage-link2img "Preschimbă legătura într-o miniatură a imaginii">
+<!ENTITY txttoimage-adddialogtitle "Adaugă un filtru pentru lista neagră Text-to-Image">
+<!ENTITY txttoimage-adddialogdesc "Filtru nou (foloseşte * ca jocker; poţi folosi şi expresii regulare):">
+<!ENTITY txttoimage-sitefilter "Acest filtru dezactivează Text-to-Image în anumite situri.">
+<!ENTITY txttoimage-addfilter "Adaugă filtru">
+<!ENTITY txttoimage-editfilter "Modifică filtru">
+<!ENTITY txttoimage-deleteselected "Elimină selecţia">
+<!ENTITY txttoimage-deleteall "Elimină totul">
+<!ENTITY txttoimage-imgtypes "Extensiile fişierelor cu efecte Text-to-Image">
+<!ENTITY txttoimage-customTypes "Alte extensii de fişiere (desparte prin spaţiu; omite punctul de la început)">
+<!ENTITY txttoimage-maxreplace "Numărul maxim de imagini de înlocuit într-o pagină:">
+<!ENTITY txttoimage-ok "OK">
+<!ENTITY txttoimage-cancel "Abandon">
+<!ENTITY txttoimage-clicktoclose "Derulează prin tragerea cu mausul. Închide această fereastră printr-un dublu clic în pagină.">

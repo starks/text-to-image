@@ -1,0 +1,36 @@
+<!ENTITY txttoimage-title "Text-to-Image Optionen">
+<!ENTITY txttoimage-tooltip "Text-to-Image ein- / ausschalten">
+<!ENTITY txttoimage-optiontab "Optionen">
+<!ENTITY txttoimage-blacklisttab "Blacklist">
+<!ENTITY txttoimage-sitefiltertab "Seiten-Blacklist">
+<!ENTITY txttoimage-imgtab "Bilder">
+<!ENTITY txttoimage-imgmode "Text-to-Image Modus">
+<!ENTITY txttoimage-newmode "Neuer Modus (Bilder nach Doppelklick in Popup öffnen)">
+<!ENTITY txttoimage-oldmode "Alter Modus (Bilder nicht im Popup öffnen)">
+<!ENTITY txttoimage-imgloader "Lade-Icon anzeigen, während das Bild geladen wird">
+<!ENTITY txttoimage-imgdims "Bilddimensionen">
+<!ENTITY txttoimage-widthckbox "Maximale Bildbreite setzen?">
+<!ENTITY txttoimage-width "Maximale Breite:">
+<!ENTITY txttoimage-heightckbox "Maximale Bildhöhe setzen?">
+<!ENTITY txttoimage-height "Maximale Höhe:">
+<!ENTITY txttoimage-himgdims "Bilddimensionen bei Überfahren mit der Maus">
+<!ENTITY txttoimage-hwidthckbox "Maximale Bildbreite setzen?">
+<!ENTITY txttoimage-hheightckbox "Maximale Bildhöhe setzen?">
+<!ENTITY txttoimage-popup "Bild in Popup-Fenster ansehen">
+<!ENTITY txttoimage-origtext "Originaltext oder -link statt Bild anzeigen">
+<!ENTITY txttoimage-filter "Text-to-Image bei diesem Bild nicht anwenden">
+<!ENTITY txttoimage-filtersite "Text-to-Image bei dieser Website nicht anwenden">
+<!ENTITY txttoimage-link2img "Link in Bildvorschau umwandeln">
+<!ENTITY txttoimage-adddialogtitle "Blacklist-Filter hinzufügen">
+<!ENTITY txttoimage-adddialogdesc "Neuer Filter (* als Wildcard benutzen, oder reguläre Ausdrücke)">
+<!ENTITY txttoimage-sitefilter "Mit diesem Filter lässt sich Text-to-Image auf bestimmten Seiten deaktivieren">
+<!ENTITY txttoimage-addfilter "Filter hinzufügen">
+<!ENTITY txttoimage-editfilter "Filter bearbeiten">
+<!ENTITY txttoimage-deleteselected "Markierte löschen">
+<!ENTITY txttoimage-deleteall "Alle löschen">
+<!ENTITY txttoimage-imgtypes "Dateierweiterungen, bei denen Text-to-Image umwandelt">
+<!ENTITY txttoimage-customTypes "Andere Erweiterungen (mit Leerzeichen trennen, nur reine Erweiterung)">
+<!ENTITY txttoimage-maxreplace "Maximal ersetzte Bilderzahl pro Seite">
+<!ENTITY txttoimage-ok "Ok">
+<!ENTITY txttoimage-cancel "Abbrechen">
+<!ENTITY txttoimage-clicktoclose "Per Klick und Maus scrollen. Doppelklick schließt das Fenster.">

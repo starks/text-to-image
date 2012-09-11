@@ -1,0 +1,36 @@
+<!ENTITY txttoimage-title "Opzioni di Text-to-Image">
+<!ENTITY txttoimage-tooltip "Attiva/Disattiva Text-to-Image">
+<!ENTITY txttoimage-optiontab "Opzioni">
+<!ENTITY txttoimage-blacklisttab "Lista nera">
+<!ENTITY txttoimage-sitefiltertab "Siti in lista nera">
+<!ENTITY txttoimage-imgtab "Immagini">
+<!ENTITY txttoimage-imgmode "Modalità di Text-to-Image">
+<!ENTITY txttoimage-newmode "Le immagini si apriranno in pop-up al doppio clic">
+<!ENTITY txttoimage-oldmode "Le immagini non si apriranno in pop-up">
+<!ENTITY txttoimage-imgloader "Usare un&apos;icona invece di un&apos;immagine durante il caricamento">
+<!ENTITY txttoimage-imgdims "Dimensioni delle immagini">
+<!ENTITY txttoimage-widthckbox "Impostare la larghezza massima">
+<!ENTITY txttoimage-width "Pixel: ">
+<!ENTITY txttoimage-heightckbox "Impostare l&apos;altezza massima">
+<!ENTITY txttoimage-height "Pixel: ">
+<!ENTITY txttoimage-himgdims "Dimensioni delle immagini al passaggio del mouse">
+<!ENTITY txttoimage-hwidthckbox "Impostare la larghezza massima">
+<!ENTITY txttoimage-hheightckbox "Impostare l&apos;altezza massima">
+<!ENTITY txttoimage-popup "Visualizza le immagini in pop-up">
+<!ENTITY txttoimage-origtext "Riporta le immagini al testo o al link originari">
+<!ENTITY txttoimage-filter "Metti immagine in lista nera di Text-to-Image">
+<!ENTITY txttoimage-filtersite "Metti sito web in lista nera di Text-to-Image">
+<!ENTITY txttoimage-link2img "Converti link in anteprime d&apos;immagine">
+<!ENTITY txttoimage-adddialogtitle "Aggiunta di un filtro alla lista nera di Text-to-Image">
+<!ENTITY txttoimage-adddialogdesc "Nuovo filtro (è possibile utilizzare sia * come carattere jolly che le espressioni regolari):">
+<!ENTITY txttoimage-sitefilter "Questi filtri disattiveranno Text-to-Image per siti specifici">
+<!ENTITY txttoimage-addfilter "Aggiungi filtro">
+<!ENTITY txttoimage-editfilter "Modifica filtro">
+<!ENTITY txttoimage-deleteselected "Elimina filtro">
+<!ENTITY txttoimage-deleteall "Elimina tutti">
+<!ENTITY txttoimage-imgtypes "Estensioni di file da associare a Text-to-Image">
+<!ENTITY txttoimage-customTypes "Altre estensioni di file (separate con uno spazio e prive di punto)">
+<!ENTITY txttoimage-maxreplace "Numero massimo di immagini per pagina da sostituire: ">
+<!ENTITY txttoimage-ok "OK">
+<!ENTITY txttoimage-cancel "Annulla">
+<!ENTITY txttoimage-clicktoclose "Fare clic e trascinare il mouse per scorrere. Fare doppio clic ovunque in questa finestra per chiuderla">

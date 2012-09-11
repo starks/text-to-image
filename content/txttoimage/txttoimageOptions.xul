@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://txttoimage/skin/txttoimageOptions.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://txttoimage/locale/txttoimage.dtd">
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        title="&txttoimage-title;" onload="txttoimageInitOps();"
+        onkeypress="txttoimageBlacklistEvents(event);" windowtype="txttoimage:options"
+        persist="screenX screenY width height persist-list-selectedIndex">
+  <script type="application/x-javascript" src="chrome://txttoimage/content/txttoimageOptions.js"/>
+  <stringbundle src="chrome://txttoimage/locale/txttoimage.properties" id="txttoimageStringBundle"/>
+  <tabbox>
+    <tabs>
+      <tab label="&txttoimage-optiontab;"/>
+      <tab label="&txttoimage-blacklisttab;"/>
+      <tab label="&txttoimage-sitefiltertab;"/>
+      <tab label="&txttoimage-imgtab;"/>
+    </tabs>
+    <tabpanels>
+      <tabpanel orient="vertical">
+        <groupbox>
+          <caption label="&txttoimage-imgmode;"/>
+          <radiogroup id="txttoimageMode" orient="vertical">
+            <radio value="new" label="&txttoimage-newmode;"/>
+            <radio value="old" label="&txttoimage-oldmode;"/>
+          </radiogroup>
+        </groupbox>
+        <checkbox id="txttoimageimageLoader" label="&txttoimage-imgloader;"/>
+        <spacer style="height: 10px"/>
+        <groupbox>
+          <caption label="&txttoimage-imgdims;"/>
+          <hbox>
+            <checkbox id="txttoimageWidth" label="&txttoimage-widthckbox;"
+                      oncommand="txttoimageDisableTextBoxes('WidthValue');"/>
+            <spacer flex="1"/>
+            <label value="&txttoimage-width;"/>
+            <textbox id="txttoimageWidthValue" size="4" maxlength="4"/>
+          </hbox>
+          <hbox>
+            <checkbox id="txttoimageHeight" label="&txttoimage-heightckbox;"
+                      oncommand="txttoimageDisableTextBoxes('HeightValue');"/>
+            <spacer flex="1"/>
+            <label value="&txttoimage-height;"/>
+            <textbox id="txttoimageHeightValue" size="4" maxlength="4"/>
+          </hbox>
+        </groupbox>
+        <spacer style="height: 5px"/>
+        <groupbox>
+          <caption label="&txttoimage-himgdims;"/>
+          <hbox>
+            <checkbox id="txttoimageHoverW" label="&txttoimage-hwidthckbox;"
+                      oncommand="txttoimageDisableTextBoxes('HoverWV');"/>
+            <spacer flex="1"/>
+            <label value="&txttoimage-width;"/>
+            <textbox id="txttoimageHoverWV" size="4" maxlength="4"/>
+          </hbox>
+          <hbox>
+            <checkbox id="txttoimageHoverH" label="&txttoimage-hheightckbox;"
+                      oncommand="txttoimageDisableTextBoxes('HoverHV');"/>
+            <spacer flex="1"/>
+            <label value="&txttoimage-height;"/>
+            <textbox id="txttoimageHoverHV" size="4" maxlength="4"/>
+          </hbox>
+        </groupbox>
+      </tabpanel>
+      <tabpanel orient="vertical">
+        <listbox flex="1" id="txttoimageListbox1" seltype="multiple" disableKeyNavigation="true"
+                 onselect="txttoimageUpdateButtons(1);"/>
+        <spacer style="height: 5px"/>
+        <hbox>
+          <spacer flex="1"/>
+          <button label="&txttoimage-addfilter;" oncommand="txttoimageFilterAdd(1);"/>
+          <button label="&txttoimage-editfilter;" id="txttoimageEditFilter1" oncommand="txttoimageFilterEdit(1);"/>
+          <button label="&txttoimage-deleteselected;" id="txttoimageDeleteSelected1" oncommand="txttoimageFilterDeleteSelected(true, 1);"/>
+          <button label="&txttoimage-deleteall;" id="txttoimageDeleteAll1" oncommand="txttoimageFilterDeleteAll(true, 1);"/>
+        </hbox>
+      </tabpanel>
+      <tabpanel orient="vertical">
+        <description>&txttoimage-sitefilter;</description>
+        <listbox flex="1" id="txttoimageListbox2" seltype="multiple" disableKeyNavigation="true"
+                 onselect="txttoimageUpdateButtons(2);"/>
+        <spacer style="height: 5px"/>
+        <hbox>
+          <spacer flex="1"/>
+          <button label="&txttoimage-addfilter;" oncommand="txttoimageFilterAdd(2);"/>
+          <button label="&txttoimage-editfilter;" id="txttoimageEditFilter2" oncommand="txttoimageFilterEdit(2);"/>
+          <button label="&txttoimage-deleteselected;" id="txttoimageDeleteSelected2" oncommand="txttoimageFilterDeleteSelected(true, 2);"/>
+          <button label="&txttoimage-deleteall;" id="txttoimageDeleteAll2" oncommand="txttoimageFilterDeleteAll(true, 2);"/>
+        </hbox>
+      </tabpanel>
+      <tabpanel orient="vertical">
+        <groupbox>
+          <caption label="&txttoimage-imgtypes;"/>
+          <hbox>
+            <vbox>
+              <checkbox id="txttoimageJpg" label=".jpg"/>
+              <checkbox id="txttoimageJpe" label=".jpe"/>
+              <checkbox id="txttoimageBmp" label=".bmp"/>
+              <checkbox id="txttoimageGif" label=".gif"/>
+            </vbox>
+            <vbox>
+              <checkbox id="txttoimageJpeg" label=".jpeg"/>
+              <checkbox id="txttoimageJfif" label=".jfif"/>
+              <checkbox id="txttoimageDib" label=".dib"/>
+              <checkbox id="txttoimagePng" label=".png"/>
+            </vbox>
+            <spacer flex="1"/>
+          </hbox>
+          <label value="&txttoimage-customTypes;"/>
+          <textbox id="txttoimageCustomTypes"/>
+        </groupbox>
+        <hbox>
+          <spacer flex="1"/>
+          <label value="&txttoimage-maxreplace;"/>
+          <textbox id="txttoimageMaxNumberOfImages" size="4"/>
+        </hbox>
+      </tabpanel>
+    </tabpanels>
+  </tabbox>
+  <hbox>
+    <spacer flex="1"/>
+    <button label="&txttoimage-ok;" oncommand="txttoimageSaveOps();"/>
+    <button label="&txttoimage-cancel;" oncommand="window.close();"/>
+  </hbox>
+</window>

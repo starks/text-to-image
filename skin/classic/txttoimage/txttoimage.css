@@ -1,0 +1,4 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#txttoimagePanel { list-style-image: url("chrome://txttoimage/skin/txttoimage.png"); cursor: pointer; }
+#txttoimagePanel[disabled], #txttoimagePanel:disabled { list-style-image: url("chrome://txttoimage/skin/txttoimageDisabled.png"); }

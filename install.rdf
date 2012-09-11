@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$O6iOE1"
+                   em:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   em:minVersion="1.0+"
+                   em:maxVersion="1.0+" />
+  <RDF:Description RDF:about="urn:mozilla:extension:file:txttoimage.jar"
+                   em:package="content/txttoimage/"
+		   em:skin="skin/classic/txttoimage/">
+    <em:locale>locale/ca-AD/txttoimage/</em:locale>
+    <em:locale>locale/cs-CZ/txttoimage/</em:locale>
+    <em:locale>locale/da-DK/txttoimage/</em:locale>
+    <em:locale>locale/de-DE/txttoimage/</em:locale>
+    <em:locale>locale/en-US/txttoimage/</em:locale>
+    <em:locale>locale/es-AR/txttoimage/</em:locale>
+    <em:locale>locale/es-ES/txttoimage/</em:locale>
+    <em:locale>locale/fr-FR/txttoimage/</em:locale>
+    <em:locale>locale/hr-HR/txttoimage/</em:locale>
+    <em:locale>locale/it-IT/txttoimage/</em:locale>
+    <em:locale>locale/pt-BR/txttoimage/</em:locale>
+    <em:locale>locale/ro-RO/txttoimage/</em:locale>
+    <em:locale>locale/zh-TW/txttoimage/</em:locale>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$J6iOE1"
+                   em:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   em:minVersion="1.0"
+                   em:maxVersion="2.0a1" />
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="{f701c26a-479a-4724-b4f1-870db12f063c}"
+                   em:name="Text-to-Image"
+                   em:version="1.3.0.5"
+                   em:description="Convert text URLs and links to images into thumbnails of the said image."
+                   em:creator="Starks and Toad King"
+                   em:optionsURL="chrome://txttoimage/content/txttoimageOptions.xul"
+                   em:iconURL="chrome://txttoimage/skin/txttoimageIcon.png"
+                   em:homepageURL="http://www.gamefaqs.com/boards/gentopic.php?board=565885"
+                   em:developer="Junx"
+                   em:contributor="Pike and ZeroAnt">
+    <em:translator>acushnir</em:translator>
+    <em:translator>AlleyKat</em:translator>
+    <em:translator>dan.lungescu</em:translator>
+    <em:translator>jojaba</em:translator>
+    <em:translator>kennith</em:translator>
+    <em:translator>Krcko</em:translator>
+    <em:translator>l0stintranslation</em:translator>
+    <em:translator>MatrixIsAllOver</em:translator>
+    <em:translator>NBindp</em:translator>
+    <em:translator>osterlaus</em:translator>
+    <em:translator>pedsann</em:translator>
+    <em:translator>srxo1978</em:translator>
+    <em:translator>The Zero</em:translator>
+    <em:file RDF:resource="urn:mozilla:extension:file:txttoimage.jar"/>
+    <em:targetApplication RDF:resource="rdf:#$J6iOE1"/>
+    <em:targetApplication RDF:resource="rdf:#$O6iOE1"/>
+    <em:targetApplication RDF:resource="rdf:#$T6iOE1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$T6iOE1"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.0"
+                   em:maxVersion="3.1b1pre" />
+</RDF:RDF>

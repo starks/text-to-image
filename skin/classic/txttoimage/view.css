@@ -1,0 +1,8 @@
+@namespace url("http://www.w3.org/1999/xhtml");
+
+* { margin: 0px; padding: 0px; background-color: transparent; -moz-user-select: none; }
+html, body { text-align: center; height: 100%; width: 100%; }
+div#top { position: fixed; top: 0px; bottom: 0px; left: 0px; right: 0px; }
+body { display: table; }
+div#center { display: table-cell; text-align: center; vertical-align: middle; width: 100%; height: 100%; }
+img { border: none; }

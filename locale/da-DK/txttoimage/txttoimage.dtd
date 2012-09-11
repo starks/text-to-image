@@ -1,0 +1,36 @@
+<!ENTITY txttoimage-title "Text-to-Image indstillinger">
+<!ENTITY txttoimage-tooltip "Slå Text-to-Image til og fra">
+<!ENTITY txttoimage-optiontab "Indstillinger">
+<!ENTITY txttoimage-blacklisttab "Sort liste">
+<!ENTITY txttoimage-sitefiltertab "Side sort liste">
+<!ENTITY txttoimage-imgtab "Billeder">
+<!ENTITY txttoimage-imgmode "Text-to-Image modus">
+<!ENTITY txttoimage-newmode "Ny modus (billeder åbner i popup ved dobbeltklik)">
+<!ENTITY txttoimage-oldmode "Gammel tilstand (billeder vises ikke i popup)">
+<!ENTITY txttoimage-imgloader "Brug et indlæsningsikon i stedet for et indlæsningsbillede">
+<!ENTITY txttoimage-imgdims "Billeddimensioner">
+<!ENTITY txttoimage-widthckbox "Sæt en maks-bredde for billeder?">
+<!ENTITY txttoimage-width "Maks-bredde:">
+<!ENTITY txttoimage-heightckbox "Sæt en maks-højde for billeder?">
+<!ENTITY txttoimage-height "Maks-højde:">
+<!ENTITY txttoimage-himgdims "Billeddimensioner ved mus over">
+<!ENTITY txttoimage-hwidthckbox "Sæt en maks-bredde for billeder ved mus over?">
+<!ENTITY txttoimage-hheightckbox "Sæt en maks-højde for billeder ved mus over?">
+<!ENTITY txttoimage-popup "Vis billede i popupvindue">
+<!ENTITY txttoimage-origtext "Ændr billede til original tekst eller link">
+<!ENTITY txttoimage-filter "Sortlist dette billede for Text-to-Image">
+<!ENTITY txttoimage-filtersite "Sortlist denne webside for Text-to-Image">
+<!ENTITY txttoimage-link2img "Konverter link til minibillede af billede">
+<!ENTITY txttoimage-adddialogtitle "Tilføj Text-to-Image sortliste filter">
+<!ENTITY txttoimage-adddialogdesc "Nyt filter (brug * som jokertegn, du kan også bruge Regulære Udtryk):">
+<!ENTITY txttoimage-sitefilter "Dette filter slår Text-to-Image fra på bestemte sider.">
+<!ENTITY txttoimage-addfilter "Tilføj filter">
+<!ENTITY txttoimage-editfilter "Rediger filter">
+<!ENTITY txttoimage-deleteselected "Slet valgte">
+<!ENTITY txttoimage-deleteall "Slet alle">
+<!ENTITY txttoimage-imgtypes "Filtyper Text-to-Image effekter">
+<!ENTITY txttoimage-customTypes "Andre filtyper (adskil med mellemrum, og uden indledende punktum)">
+<!ENTITY txttoimage-maxreplace "Maksimum antal billeder pr side der skal erstattes:">
+<!ENTITY txttoimage-ok "OK">
+<!ENTITY txttoimage-cancel "Annuller">
+<!ENTITY txttoimage-clicktoclose "Klik og træk musen for at rulle. Dobbeltklik overalt på siden for at lukke dette vindue.">

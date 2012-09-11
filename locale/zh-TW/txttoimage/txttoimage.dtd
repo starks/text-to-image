@@ -1,0 +1,36 @@
+<!ENTITY txttoimage-title "Text-to-Image 選項">
+<!ENTITY txttoimage-tooltip "切換 Text-to-Image 開關">
+<!ENTITY txttoimage-optiontab "選項">
+<!ENTITY txttoimage-blacklisttab "黑名單">
+<!ENTITY txttoimage-sitefiltertab "網站黑名單">
+<!ENTITY txttoimage-imgtab "圖片">
+<!ENTITY txttoimage-imgmode "Text-to-Image 模式">
+<!ENTITY txttoimage-newmode "新模式 (左鍵雙擊後開啟圖片於彈出視窗)">
+<!ENTITY txttoimage-oldmode "舊模式 (圖片不會開啟於彈出視窗)">
+<!ENTITY txttoimage-imgloader "使用載入中圖示代替載入中圖片">
+<!ENTITY txttoimage-imgdims "圖片尺寸">
+<!ENTITY txttoimage-widthckbox "設定圖片最大寬度">
+<!ENTITY txttoimage-width "最大寬度">
+<!ENTITY txttoimage-heightckbox "設定圖片最大高度">
+<!ENTITY txttoimage-height "最大高度">
+<!ENTITY txttoimage-himgdims "鼠標停留時的圖片尺寸">
+<!ENTITY txttoimage-hwidthckbox "設定鼠標停留時圖片最大寬度">
+<!ENTITY txttoimage-hheightckbox "設定鼠標停留時圖片最大高度">
+<!ENTITY txttoimage-popup "在彈出視窗檢視圖片">
+<!ENTITY txttoimage-origtext "將圖片轉換成原本文字或鏈結">
+<!ENTITY txttoimage-filter "將此圖片加入 Text-to-Image 黑名單中">
+<!ENTITY txttoimage-filtersite "將此頁面加入 Text-to-Image 黑名單中">
+<!ENTITY txttoimage-link2img "轉換鏈結成圖片縮圖">
+<!ENTITY txttoimage-adddialogtitle "增加 Text-to-Image 黑名單過濾器">
+<!ENTITY txttoimage-adddialogdesc "新增過濾器 (使用 * 為通用字符, 亦可使用其他公用符號)">
+<!ENTITY txttoimage-sitefilter "過濾器是防止指定網域使用 Text-to-Image">
+<!ENTITY txttoimage-addfilter "增加過濾器">
+<!ENTITY txttoimage-editfilter "編輯過濾器">
+<!ENTITY txttoimage-deleteselected "刪除已選擇項目">
+<!ENTITY txttoimage-deleteall "刪除全部">
+<!ENTITY txttoimage-imgtypes "對 Text-to-Image 有效的檔案類型">
+<!ENTITY txttoimage-customTypes "其它檔案類型 (使用空白鍵分隔, 不要包含.)">
+<!ENTITY txttoimage-maxreplace "每頁最大圖片最代數">
+<!ENTITY txttoimage-ok "確定">
+<!ENTITY txttoimage-cancel "取消">
+<!ENTITY txttoimage-clicktoclose "按下並拖放頁面來捲動；雙擊頁面上任何位置來關閉">

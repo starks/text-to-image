@@ -1,0 +1,36 @@
+<!ENTITY txttoimage-title "Text-to-Image Opcije">
+<!ENTITY txttoimage-tooltip "Mijenja Text-to-Image uključeno i isključeno">
+<!ENTITY txttoimage-optiontab "Opcije">
+<!ENTITY txttoimage-blacklisttab "Popis nedopuštenih">
+<!ENTITY txttoimage-sitefiltertab "Popis nedopuštenih stranica">
+<!ENTITY txttoimage-imgtab "Slike">
+<!ENTITY txttoimage-imgmode "Text-to-Image mod">
+<!ENTITY txttoimage-newmode "Novi način (Slike se otvaraju u skočnom prozoru nakon dvostrukog klika)">
+<!ENTITY txttoimage-oldmode "Stari način (Slike se ne pojavljuju u skočnom prozoru)">
+<!ENTITY txttoimage-imgloader "Koristi ikonu učitavanja umjesto učitavanja slike">
+<!ENTITY txttoimage-imgdims "Dimenzije slike">
+<!ENTITY txttoimage-widthckbox "Postaviti najveću širinu za slike?">
+<!ENTITY txttoimage-width "Najveća širina: ">
+<!ENTITY txttoimage-heightckbox "Postaviti najveću visinu za slike?">
+<!ENTITY txttoimage-height "Najveća visina: ">
+<!ENTITY txttoimage-himgdims "Dimenzije slike za miša iznad">
+<!ENTITY txttoimage-hwidthckbox "Postaviti najveću širinu za slike za miša-iznad?">
+<!ENTITY txttoimage-hheightckbox "Postaviti najveću visinu za slike za miša-iznad?">
+<!ENTITY txttoimage-popup "Pogledajte sliku u skočnom prozoru">
+<!ENTITY txttoimage-origtext "Promijeni sliku u izvorni tekst ili poveznicu">
+<!ENTITY txttoimage-filter "Dodaj ovu sliku u popis nedopuštenih za Text-to-Image">
+<!ENTITY txttoimage-filtersite "Dodaj ovu web stranicu u popis nedopuštenih za Text-to-Image">
+<!ENTITY txttoimage-link2img "Pretvori poveznicu u sličicu">
+<!ENTITY txttoimage-adddialogtitle "Dodajte Text-to-Image filter popisa nedopuštenih">
+<!ENTITY txttoimage-adddialogdesc "Novi Filter (koristite * as joker, također možete koristiti i Regularne izraze):">
+<!ENTITY txttoimage-sitefilter "Ovaj filter je za onemogućavanje Text-to-Image na određenim stranicama.">
+<!ENTITY txttoimage-addfilter "Dodaj Filter">
+<!ENTITY txttoimage-editfilter "Uredi Filter">
+<!ENTITY txttoimage-deleteselected "Obriši odabrano">
+<!ENTITY txttoimage-deleteall "Sve obriši">
+<!ENTITY txttoimage-imgtypes "Datotečni nastavci na koje utječe Text-to-Image">
+<!ENTITY txttoimage-customTypes "Drugi datotečni nastavci (odijelite s razmacima, nemojte uključiti početni razmak)">
+<!ENTITY txttoimage-maxreplace "Najveći broj slika za zamjenu po stranici: ">
+<!ENTITY txttoimage-ok "Uredu">
+<!ENTITY txttoimage-cancel "Odustani">
+<!ENTITY txttoimage-clicktoclose "Za pomicanje kliknite i povucite miša. Da biste zatvorili ovaj prozor dvostruko kliknite bilo gdje na stranici.">

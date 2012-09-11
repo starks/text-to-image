@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://txttoimage/skin/txttoimage.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://txttoimage/locale/txttoimage.dtd">
+<overlay id="txttoimageOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="chrome://txttoimage/content/txttoimageOverlay.js"/>
+  <stringbundleset id="stringbundleset">
+    <stringbundle src="chrome://txttoimage/locale/txttoimage.properties" id="txttoimageStringBundle"/>
+  </stringbundleset>
+  <statusbar id="status-bar">
+    <statusbarpanel id="txttoimagePanel" class="statusbarpanel-iconic" onclick="TxttoImage.Toggle()"
+                    tooltiptext="&txttoimage-tooltip;"/>
+  </statusbar>
+  <menupopup id="menu_ToolsPopup">
+    <menuitem insertafter="devToolsSeparator" label="&txttoimage-title;" class="menuitem_iconic"
+              oncommand="TxttoImage.Open()"/>
+  </menupopup>
+  <popup id="contentAreaContextMenu">
+    <menuseparator id="txttoimageSeparatorOne"/>
+    <menuitem id="txttoimageOpen" label="&txttoimage-popup;" oncommand="TxttoImage.OpenWindow(gContextMenu)"/>
+    <menuitem id="txttoimageRemove" label="&txttoimage-origtext;"
+              oncommand="TxttoImage.RemoveImage(gContextMenu)"/>
+    <menuitem id="txttoimageBlacklist" label="&txttoimage-filter;" oncommand="TxttoImage.AddFilter(gContextMenu.target.src, 'filter')"/>
+    <menuitem id="txttoimageBlacklistSite" label="&txttoimage-filtersite;" oncommand="TxttoImage.AddFilter(gContextMenu.target.ownerDocument.location, 'siteFilter')"/>
+    <menuitem id="txttoimageLink-Img" label="&txttoimage-link2img;" oncommand="TxttoImage.Link2Img(gContextMenu.target)"/>
+    <menuseparator id="txttoimageSeparatorTwo"/>
+  </popup>
+  <keyset id="mainKeyset">
+    <key id="texttoimageToogleKey" modifiers="control, shift" key="X" oncommand="TxttoImage.Toggle()"/>
+  </keyset>
+</overlay>

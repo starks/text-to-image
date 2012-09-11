@@ -1,0 +1,21 @@
+@import url("chrome://global/skin/global.css");
+@import url("chrome://mozapps/skin/pref/pref.css");
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+window { padding: 5px !important; }
+textbox#li-tb-generated { margin: 0px !important; padding: 0px 6px !important; -moz-outline: 1px ThreeDShadow solid !important; border: none !important; }
+/*xxlistitem { border-width: 0px !important; }*/
+listbox-base { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listbox-base") !important; }
+listbox { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listbox") !important; }
+listrows { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listrows") !important; }
+listitem { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listitem") !important; }
+listitem-iconic { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listitem-iconic") !important; }
+listitem-checkbox { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listitem-checkbox") !important; }
+listitem-checkbox-iconic { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listitem-checkbox-iconic") !important; }
+listcell { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listcell-iconic") !important; }
+listcell-iconic { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listcell-iconic") !important; }
+listcell-checkbox { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listcell-checkbox") !important; }
+listcell-checkbox-iconic { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listcell-checkbox-iconic") !important; }
+listhead { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listhead") !important; }
+listheader { -moz-binding: url("chrome://txttoimage/content/txttoimageOptions.xml#listheader") !important; }

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+		 xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+	<RDF:Seq about="urn:mozilla:skin:root">
+		<RDF:li resource="urn:mozilla:skin:classic/1.0"/>
+	</RDF:Seq>
+
+	<RDF:Description about="urn:mozilla:skin:classic/1.0" chrome:name="classic/1.0">
+		<chrome:packages>
+			<RDF:Seq about="urn:mozilla:skin:classic/1.0:packages">
+				<RDF:li resource="urn:mozilla:skin:classic/1.0:txttoimage"/>
+			</RDF:Seq>
+		</chrome:packages>
+	</RDF:Description>
+
+	<RDF:Seq about="urn:mozilla:stylesheets">
+		<RDF:li resource="chrome://txttoimage/content/txttoimageOverlay.xul"/>
+		<RDF:li resource="chrome://txttoimage/content/txttoimageOptions.xul"/>
+		<RDF:li resource="chrome://txttoimage/content/view.xhtml"/>
+	</RDF:Seq>
+
+	<RDF:Seq about="chrome://txttoimage/content/txttoimageOverlay.xul">
+		<RDF:li>chrome://txttoimage/skin/txttoimage.css</RDF:li>
+	</RDF:Seq>
+
+	<RDF:Seq about="chrome://txttoimage/content/txttoimageOptions.xul">
+		<RDF:li>chrome://txttoimage/skin/txttoimageOptions.css</RDF:li>
+	</RDF:Seq>
+
+	<RDF:Seq about="chrome://txttoimage/content/view.xhtml">
+		<RDF:li>chrome://txttoimage/skin/view.css</RDF:li>
+	</RDF:Seq>
+</RDF:RDF>

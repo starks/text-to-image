@@ -1,0 +1,36 @@
+<!ENTITY txttoimage-title "Možnosti rozšíření Text-to-Image">
+<!ENTITY txttoimage-tooltip "Zapnout/Vypnout rozšíření Text-to-Image">
+<!ENTITY txttoimage-optiontab "Možnosti">
+<!ENTITY txttoimage-blacklisttab "Výjimky">
+<!ENTITY txttoimage-sitefiltertab "Domény">
+<!ENTITY txttoimage-imgtab "Obrázky">
+<!ENTITY txttoimage-imgmode "Režim Text-to-Image">
+<!ENTITY txttoimage-newmode "Nový režim (obrázky se otevírají ve vyskakovacím okně na dvojklepnutí)">
+<!ENTITY txttoimage-oldmode "Starý režim (obrázky se neobjevují ve vyskakovacím okně)">
+<!ENTITY txttoimage-imgloader "Použít ikonu načítání na místě načítaného obrázku">
+<!ENTITY txttoimage-imgdims "Rozměry obrázku">
+<!ENTITY txttoimage-widthckbox "Nastavit maximální šířku obrázků?">
+<!ENTITY txttoimage-width "Maximální šířka:">
+<!ENTITY txttoimage-heightckbox "Nastavit maximální výšku obrázků?">
+<!ENTITY txttoimage-height "Maximální výška:">
+<!ENTITY txttoimage-himgdims "Rozměry obrázku při přejetí myší">
+<!ENTITY txttoimage-hwidthckbox "Nastavit maximálně šířku obrázků při přejetí myší?">
+<!ENTITY txttoimage-hheightckbox "Nastavit maximálně výšku obrázků při přejetí myší?">
+<!ENTITY txttoimage-popup "Zobrazit obrázek ve vyskakovacím okně">
+<!ENTITY txttoimage-origtext "Změnit obrázek na původní text nebo odkaz">
+<!ENTITY txttoimage-filter "Nepoužívat Text-to-Image pro tento obrázek">
+<!ENTITY txttoimage-filtersite "Nepoužívat Text-to-Image pro tuto doménu">
+<!ENTITY txttoimage-link2img "Převést odkaz na náhled obrázku">
+<!ENTITY txttoimage-adddialogtitle "Přidat filtr rozšíření Text-to-Image">
+<!ENTITY txttoimage-adddialogdesc "Nový filtr (použijte * jako divokou kartu, lze také použít regulární výrazy)">
+<!ENTITY txttoimage-sitefilter "Tento filtr umožňuje vypnout Text-to-Image na vybraných stránkách.">
+<!ENTITY txttoimage-addfilter "Přidat filtr">
+<!ENTITY txttoimage-editfilter "Upravit filtr">
+<!ENTITY txttoimage-deleteselected "Smazat vybrané">
+<!ENTITY txttoimage-deleteall "Smazat vše">
+<!ENTITY txttoimage-imgtypes "Přípony souborů, na které má Text-to-Image efekt">
+<!ENTITY txttoimage-customTypes "Ostatní přípony souborů (oddělte mezerami, nezapisujte úvodní tečku)">
+<!ENTITY txttoimage-maxreplace "Maximální počet obrázků nahrazených na jedné stránce:">
+<!ENTITY txttoimage-ok "OK">
+<!ENTITY txttoimage-cancel "Zrušit">
+<!ENTITY txttoimage-clicktoclose "Klepněte a táhněte myší pro posun. Dvojklepnutím kdekoli na stránce zavřete toto okno.">

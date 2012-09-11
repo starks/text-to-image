@@ -1,0 +1,15 @@
+<?xml versió="1.0"?>
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+  <RDF:Seq sobre="urn:mozilla:locale:root">
+    <RDF:recurs li="urn:mozilla:locale:ca-AD"/>
+  </RDF:Seq>
+  <RDF:Descripció sobre="urn:mozilla:locale:ca-AD" chrome:displayName="Catalan(AD)" chrome:autor="Toad King"
+                   chrome:name="ca-AD">
+    <chrome:packages>
+      <RDF:Seq sobre="urn:mozilla:locale:en-US:packages">
+        <RDF:recurs li="urn:mozilla:locale:ca-AD:txttoimage"/>
+      </RDF:Seq>
+    </chrome:packages>
+  </RDF:Description>
+</RDF:RDF>

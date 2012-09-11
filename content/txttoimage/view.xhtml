@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://txttoimage/skin/view.css" type="text/css"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "chrome://txttoimage/locale/txttoimage.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><title>&txttoimage-clicktoclose;</title></head><body><div id="top"></div><div id="center"></div><script type="application/x-javascript"><![CDATA[
+var lastX, lastY;
+var img = new Image();
+
+// Ugly hack for the pop-up window problem going off the page for large images
+img.addEventListener("load", function()
+{
+	// When did the sizeToContent method start throwing errors?
+	try {
+		window.sizeToContent();
+	} catch (e) {}
+
+	window.moveTo(0, 0);
+	window.moveTo(1, 1);
+	window.moveTo(window.screen.availLeft, window.screen.availTop);
+	var w = img.naturalWidth + (window.outerWidth - window.innerWidth);
+
+	if (window.screen.availWidth < w) {
+		w = window.screen.availWidth;
+	}
+
+	/*
+	 * Ugly(er) hack for the mysterious extra pixels at the bottom of the page. I
+	 * would make it simpler, but I only use Windows and don't know if the
+	 * problem exists in other operating systems.
+	 */
+	var h = img.naturalHeight + (window.outerHeight - window.innerHeight) + (window.innerHeight - img.naturalHeight);
+
+	if (window.screen.availHeight < h) {
+		h = window.screen.availHeight;
+	}
+
+	window.resizeTo(w, h);
+}, false);
+
+img.src = window.arguments[0];
+// put the image in the #center element
+document.getElementById("center").appendChild(img);
+document.body.style.setProperty("cursor", "-moz-grab", "important");
+// double clicking this window will close it
+//
+document.body.addEventListener("dblclick", function(){window.close();}, false);
+
+document.body.addEventListener("mousedown", function(e)
+{
+	document.body.style.setProperty("cursor", "-moz-grabbing", "important");
+	document.body.addEventListener("mousemove", txttoimageMouseScroll, false);
+	txttoimageSetPos(e);
+}, false);
+
+document.body.addEventListener("mouseup", function(e)
+{
+	document.body.style.setProperty("cursor", "-moz-grab", "important");
+	document.body.removeEventListener("mousemove", txttoimageMouseScroll, false);
+}, false);
+
+function txttoimageMouseScroll(e)
+{
+	window.scrollBy(lastX - e.pageX, lastY - e.pageY);
+	txttoimageSetPos(e);
+}
+
+function txttoimageSetPos(e)
+{
+	lastX = e.pageX;
+	lastY = e.pageY;
+}
+]]></script></body></html>
